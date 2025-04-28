@@ -1,0 +1,260 @@
+body {
+    /* font-family: 'Georgia', serif; /* Comment out or remove the old rule */
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d0d3e6;
+    /* Add this line to use Noto Sans */
+    /* Add any other body styles here */
+}
+
+header {
+    background-color: #1e293b;
+}
+
+.header-container {
+    background-color: #1e293b;
+    color: #f8fafc;
+    /* Change text color for contrast */
+
+    /* Added more horizontal padding */
+    display: inline-block;
+    align-items: center;
+    /* Vertically center items */
+    justify-content: space-between;
+    /* Puts space between title and nav */
+}
+
+/* Adjust NavBar styling if needed */
+
+
+.navBar ul {
+    list-style: none;
+    /* Ensure no bullets */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+    display: inline-flex;
+    /* Align nav items horizontally */
+    gap: 15px;
+    /* Add space between nav items */
+}
+
+
+
+/* Consider uncommenting and refining your nav link styles */
+.navBar ul li a {
+    text-decoration: none;
+    color: #cbd5e0;
+    padding: 8px 15px;
+    /* Adjusted pad#*/
+    background-color: #1e293b;
+    border-bottom: #1e293b solid 2px;
+    display: block;
+    /* Make the whole area clickable */
+}
+
+.navBar ul li a:hover {
+    border-bottom: #6366f1 solid 2px;
+    transition-duration: 0.5s;
+    transition-behavior: smooth;
+    /* Change border color on hover */
+    /* Smooth transition on hover */
+}
+
+section>h2 {
+    /* Targets H2 that is a direct child of a section */
+    text-align: center;
+    /* Center the heading */
+    margin-bottom: 20px;
+    /* Add space below the heading */
+    /* Add any other styling like font-size, color if needed */
+}
+
+/* Ensure the container still has top padding if desired */
+.about-us-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    /* Keep or adjust padding as needed */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-content {
+    /* Remove display: inline-block; */
+    flex: 1;
+    /* Allow items to grow and shrink */
+    min-width: 250px;
+    /* Prevent items from becoming too narrow */
+    max-width: 500px;
+    /* Optional: Set a max-width */
+}
+
+.about-image {
+    max-width: 100%;
+    /* Make image responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Remove extra space below image */
+    border-radius: 8px;
+    /* Optional: Add rounded corners */
+}
+
+
+.hero-section {
+    padding: 60px 20px;
+    /* Add vertical and horizontal padding */
+    text-align: center;
+    /* Center the content */
+    background-color: #d0d3e6;
+}
+
+.hero-section .section-title {
+    margin-bottom: 20px;
+    /* Add space below the title */
+    font-size: 2.5em;
+    /* Make title larger */
+}
+
+.button-primary {
+    /* Style the button */
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #6366f1;
+    /* Match header color */
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-primary:hover {
+    color: #1e293b;
+    transition-duration: 500ms;
+    transition-behavior: smooth;
+
+}
+
+.about-us-section {
+    padding: 40px 20px;
+    /* Add vertical and horizontal padding */
+    background-color: #d0d3e6;
+    /* Optional: Add a light background */
+    text-align: center;
+    /* Center the content */
+}
+
+.hero-section {
+    background-image: url("Images/Gemini_Generated_Image_uj79meuj79meuj79.jpg");
+    background-size: cover;
+    /* Cover the entire section */
+    background-position: center;
+    /* Center the image */
+    color: white;
+    /* Change text color for contrast */
+    padding: 100px 20px;
+}
+
+.more-info-section {
+    padding: 40px 20px;
+    /* Add vertical and horizontal padding */
+    background-color: #1e293b;
+    display: flex;
+    /* Corrected 'display-flex' to 'display: flex' */
+    justify-content: center;
+    /* Center the content horizontally */
+    align-items: center;
+    /* Center the content vertically */
+    color: #f8fafc;
+    /* Add text color for contrast */
+
+    /* Optional: Add rounded corners */
+}
+
+.more-info-container {
+    background-color: #374151;
+    padding: 20px;
+    /* Add padding */
+    border-radius: 8px;
+    /* Optional: Add rounded corners */
+    max-width: 800px;
+    /* Optional: Set a max-width */
+    margin: 0 auto;
+    /* Center the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    /* Add any specific styles for the about content here */
+    font-size: 1.2em;
+    /* Adjust font size */
+    line-height: 1.6;
+    /* Adjust line height for readability */
+    background-color: whitesmoke;
+    border: #780000 solid 2px;
+    border-radius: 8px;
+}
+
+.about-image {
+    max-width: 100%;
+    /* Make image responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Remove extra space below image */
+    border-radius: 8px;
+    /* Optional: Add rounded corners */
+    border: #780000 solid 2px;
+}
+
+.logo-container {
+
+    display: inline-block;
+    justify-content: center;
+    /* Center the logo */
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Add padding to the bottom */
+    /* Add padding to the left and top */
+    /* Add space below the logo */
+}
+
+h1 {
+    text-align: left;
+}
+
+.contact-section {
+    padding: 40px 20px;
+    /* Add vertical and horizontal padding */
+    background-color: #d0d3e6;
+    /* Optional: Add a light background */
+    text-align: center;
+    /* Center the content */
+}
+
+.info-article {
+    /* Add padding */
+    padding-left: 40px;
+    background-color: #374151;
+    /* Optional: Add a light background */
+    color: #f8fafc;
+    /* Change text color for contrast */
+    border-left: 8px solid #1a202c;
+    border-bottom: 4px solid #1a202c;
+    border-radius: 8px;
+    transition-duration: .05s;
+    transition-behavior: smooth;
+
+    /* Optional: Add a bottom border */
+    /* Add a left border */
+
+    /* Optional: Add rounded corners */
+    max-width: 800px;
+    /* Optional: Set a max-width */
+    margin: 0 auto;
+    /* Center the container */
+}
